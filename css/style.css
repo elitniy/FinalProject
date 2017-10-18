@@ -1,0 +1,26 @@
+.main {
+  width: 100%; }
+
+.topNavBar {
+  width: 100%;
+  height: 90px; }
+  .topNavBar .row {
+    width: 80%;
+    margin: 0px auto; }
+    .topNavBar .row .leftLogo {
+      width: 80%; }
+      .topNavBar .row .leftLogo .img {
+        height: 90px; }
+        .topNavBar .row .leftLogo .img img {
+          height: 100%; }
+
+#sliderSection {
+  height: 500px; }
+  #sliderSection .slider {
+    width: 80%;
+    margin: 0 auto; }
+  #sliderSection img {
+    width: 200px;
+    height: 200px; }
+
+/*# sourceMappingURL=style.css.map */

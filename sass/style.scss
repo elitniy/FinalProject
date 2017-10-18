@@ -1,0 +1,45 @@
+
+$fullWidth:100%;
+$width:80%;
+$height:90px;
+
+
+
+.main{
+	width:$fullWidth;
+	
+}
+
+.topNavBar{
+	width:$fullWidth;
+	height:$height;
+
+	.row{
+		width:$width;
+		margin: 0px auto;
+
+		.leftLogo{
+		width:$width;
+		
+		.img{
+			height: $height;
+			img{
+				height: 100%;
+			}
+		}
+	}
+	}
+}
+
+#sliderSection{
+	height:500px;
+	.slider {
+    width:$width;
+    margin: 0 auto;
+		}
+
+		img {
+		    width: 200px;
+		    height: 200px;
+		}
+}
