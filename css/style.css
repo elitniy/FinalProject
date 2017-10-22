@@ -1,26 +1,145 @@
-.main {
+.fulllWidth {
   width: 100%; }
 
-.topNavBar {
-  width: 100%;
-  height: 90px; }
-  .topNavBar .row {
-    width: 80%;
-    margin: 0px auto; }
-    .topNavBar .row .leftLogo {
-      width: 80%; }
-      .topNavBar .row .leftLogo .img {
-        height: 90px; }
-        .topNavBar .row .leftLogo .img img {
-          height: 100%; }
+.width {
+  width: 90%; }
 
-#sliderSection {
-  height: 500px; }
-  #sliderSection .slider {
-    width: 80%;
-    margin: 0 auto; }
-  #sliderSection img {
+.main {
+  margin: 0px auto; }
+
+.navBarSection .navbar {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin: 0px auto;
+  padding: 0px; }
+  .navBarSection .navbar button {
+    background-color: white; }
+  .navBarSection .navbar .navbar-brand img {
+    width: 50%; }
+  .navBarSection .navbar span input {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 20px;
     width: 200px;
-    height: 200px; }
+    border-radius: .50rem; }
+  .navBarSection .navbar .collapse .navbar-text {
+    padding-bottom: 0px; }
+    .navBarSection .navbar .collapse .navbar-text .login-and-languages {
+      text-align: right;
+      color: white; }
+      .navBarSection .navbar .collapse .navbar-text .login-and-languages a {
+        margin-right: 15px; }
+    .navBarSection .navbar .collapse .navbar-text .nav-tabs .nav-item .nav-link {
+      padding: 10px 8px;
+      color: white;
+      font-weight: 500;
+      font-size: 18px; }
+    .navBarSection .navbar .collapse .navbar-text .nav-tabs .nav-item .active {
+      background-color: red; }
+    .navBarSection .navbar .collapse .navbar-text .nav-tabs .nav-item:hover {
+      background-color: red;
+      transition: 0.7s; }
+
+.sliderSection {
+  box-shadow: 0 0px 500px 0px black;
+  overflow: hidden; }
+  .sliderSection .slide .carousel-inner .carousel-item {
+    width: 100%;
+    height: 600px; }
+    .sliderSection .slide .carousel-inner .carousel-item img {
+      height: auto; }
+
+.car360panel {
+  background-color: #134564; }
+  .car360panel .row {
+    margin: 0px auto; }
+    .car360panel .row .col-md-12 {
+      display: flex; }
+      .car360panel .row .col-md-12 .logoImage img {
+        width: 150%; }
+    .car360panel .row .col-md-8 {
+      text-align: center; }
+      .car360panel .row .col-md-8 h2 {
+        margin-top: 25px;
+        color: white; }
+    .car360panel .row .button {
+      text-align: center; }
+      .car360panel .row .button button {
+        margin-top: 25px;
+        background-color: red;
+        border-radius: 8px;
+        border: 0px;
+        color: white;
+        width: 150px;
+        height: 40px; }
+
+.autoSaleSection {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .autoSaleSection .row {
+    margin: 0px auto; }
+    .autoSaleSection .row .leftPanel {
+      padding-left: 0px;
+      padding-right: 0px; }
+      .autoSaleSection .row .leftPanel .col-md-12 {
+        padding-left: 0px;
+        padding-right: 0px; }
+        .autoSaleSection .row .leftPanel .col-md-12 .col-md-4 {
+          height: 200px;
+          padding-bottom: 0px;
+          padding-left: 0px;
+          overflow: hidden; }
+          .autoSaleSection .row .leftPanel .col-md-12 .col-md-4 img {
+            width: 100%;
+            height: 120px; }
+
+.carClubSlider {
+  box-shadow: 500px 0px 0px 0px black;
+  background-image: url("../image/car_logo/parallax.jpg");
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .carClubSlider .row {
+    margin: 0px auto;
+    margin-top: 60px;
+    height: 150px; }
+    .carClubSlider .row .col-md-2 {
+      width: 100%;
+      height: 70px;
+      text-align: center; }
+      .carClubSlider .row .col-md-2 img {
+        text-align: center;
+        height: 100%;
+        overflow: hidden; }
+      .carClubSlider .row .col-md-2 h2 {
+        text-align: center; }
+    .carClubSlider .row .col-md-2:hover {
+      width: 100%;
+      height: 70px;
+      margin-top: -20px;
+      transition: 0.7s; }
+      .carClubSlider .row .col-md-2:hover img {
+        height: 120%;
+        transition: 0.7s;
+        overflow: hidden; }
+      .carClubSlider .row .col-md-2:hover h2 {
+        text-align: center;
+        font-size: 40px;
+        transition: 0.7s; }
+        .carClubSlider .row .col-md-2:hover h2 i {
+          color: #645300;
+          text-decoration: none;
+          transition: 0.7s; }
+
+.gallerySection {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .gallerySection .gallery {
+    margin: 0px auto; }
+  .gallerySection .thumbnail {
+    margin-bottom: 6px; }
+  .gallerySection .carousel-control.left, .gallerySection .carousel-control.right {
+    background-image: none; }
 
 /*# sourceMappingURL=style.css.map */
