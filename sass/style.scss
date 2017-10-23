@@ -1,3 +1,8 @@
+body{
+	background-color:rgb(246,246,246);
+}
+
+
 $fulllWidth:100%;
 $width:90%;
 
@@ -44,6 +49,21 @@ $width:90%;
 							margin-right:15px; 
 						}
 				}
+				.loginPassword{
+					text-align: right;
+						li{	
+						    display: inline-block;
+						    margin-right:15px; 				
+							input{
+								width: 150px;
+						}
+						button{
+							height: 20px;
+							color:black;
+							text-size:5px;
+						}
+					}
+				}
 				padding-bottom:0px;
 					.nav-tabs {
 						.nav-item{
@@ -51,7 +71,7 @@ $width:90%;
 								padding:10px 8px;
 								color: white;
 								font-weight:500;
-								font-size: 18px;
+								font-size: 15px;
 							}
 							.active{
 								background-color:red;
@@ -181,7 +201,7 @@ $width:90%;
 			width: 100%;
 			height: 70px;
 			margin-top: -20px;
-			transition: 0.7s;
+			transition: 0.5s;
 			img{
 
 				height: 120%;
@@ -191,9 +211,9 @@ $width:90%;
 			h2{text-align:center;
 				font-size: 40px;
 				transition: 0.7s;
-				i{  color:rgb(100,83,0);
+				i{  color:blue;
 					text-decoration: none;
-					transition: 0.7s;
+					transition: 0.5s;
 				}
 			}
 		}
@@ -204,15 +224,31 @@ $width:90%;
 .gallerySection{
 	padding-top: 20px;
  	padding-bottom: 20px;
+ 	padding-right: 0px;
+    padding-left: 0px;
+    h1{
+    	padding-bottom: 10px;
+    }
   	.gallery{
   		margin:0px auto;
-  	}
-  	.thumbnail {
-  		margin-bottom:6px;
-  	}
 
-  	.carousel-control.left,.carousel-control.right{
-    	background-image:none;
+  	}
+  	.container{
+  		.row{
+  			.col-md-3{
+  				overflow: hidden;
+  				padding-left:0px;
+  				padding-right:0px;
+  			}
+  			img {
+  				width: 100%;
+		   		filter: gray; /* IE6-9 */
+			    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+			    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+			    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+			}
+
+  		}
   	}
 }
 
