@@ -20,7 +20,7 @@ $width:90%;
 .navBarSection{
 
 	.navbar{
-		background-color: rgba(0, 0, 0, 0.6);
+		background-color: rgba(0, 0, 0, 0.7);
 		margin:0px auto;
 		padding:0px;
 		button{
@@ -38,30 +38,50 @@ $width:90%;
 				height: 20px;
 				width: 200px;
 				border-radius: .50rem;
+				    .btn{
+				    	padding:0px;
+				    }
 			}
 		}
 		.collapse{
 			.navbar-text{
 				.login-and-languages{
+					margin-bottom: 5px;
 					text-align: right;
 					color: white;
+
 						a{
-							margin-right:15px; 
+							margin-right:15px;
+						}
+						a:hover{
+							margin-right:15px;
+							color: green;
+							text-decoration: none;
 						}
 				}
 				.loginPassword{
 					text-align: right;
-						li{	
-						    display: inline-block;
-						    margin-right:15px; 				
-							input{
-								width: 150px;
+					margin-bottom: 5px;
+					li{	
+					    display: inline-block;
+					    margin-right:15px; 				
+						input{
+							width: 150px;
+							font-size: 80%;
+							border:0.5px;
 						}
 						button{
+							background-color:gray;
 							height: 20px;
 							color:black;
 							text-size:5px;
-						}
+							line-height: 0.25;
+							border:0.5px solid green;
+							}
+							button:hover{
+								background-color:red;
+							}
+							
 					}
 				}
 				padding-bottom:0px;
@@ -69,7 +89,7 @@ $width:90%;
 						.nav-item{
 							.nav-link{
 								padding:10px 8px;
-								color: white;
+
 								font-weight:500;
 								font-size: 15px;
 							}
@@ -162,6 +182,19 @@ $width:90%;
 					img{
 						width: 100%;
 						height: 120px;
+					}
+				}
+			}
+		}
+		.rightPanel{
+			.row{
+				.col-md-12{
+					.row{
+						.col-md-6{
+							select{
+								width: 100%;
+							}
+						}
 					}
 				}
 			}
