@@ -59,6 +59,7 @@ body {
           background-color: red; }
     .navBarSection .navbar .collapse .navbar-text .nav-tabs .nav-item .nav-link {
       padding: 10px 8px;
+      color: white;
       font-weight: 500;
       font-size: 15px; }
     .navBarSection .navbar .collapse .navbar-text .nav-tabs .nav-item .active {
@@ -108,6 +109,12 @@ body {
     .autoSaleSection .row .leftPanel {
       padding-left: 0px;
       padding-right: 0px; }
+      .autoSaleSection .row .leftPanel h2 {
+        padding-right: 15px; }
+        .autoSaleSection .row .leftPanel h2 button {
+          float: right; }
+        .autoSaleSection .row .leftPanel h2 button:hover {
+          background-color: red; }
       .autoSaleSection .row .leftPanel .col-md-12 {
         padding-left: 0px;
         padding-right: 0px; }
@@ -119,8 +126,27 @@ body {
           .autoSaleSection .row .leftPanel .col-md-12 .col-md-4 img {
             width: 100%;
             height: 120px; }
-    .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 select {
-      width: 100%; }
+    .autoSaleSection .row .rightPanel .row .col-md-12 {
+      padding-left: 0px; }
+      .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 {
+        padding-left: 0px; }
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 h5 {
+          margin-bottom: 0px; }
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 select {
+          width: 100%; }
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .year {
+          width: 100%; }
+          .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .year h5 {
+            display: block;
+            margin-bottom: 0px; }
+          .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .year input {
+            float: left; }
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .price input {
+          float: left; }
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .Buttons {
+          margin-top: 10px; }
+          .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .Buttons button:hover {
+            background-color: red; }
 
 .carClubSlider {
   box-shadow: 500px 0px 0px 0px black;
@@ -182,5 +208,19 @@ body {
     -webkit-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75); }
+
+.mapSection .fulllWidth #map {
+  height: 400px;
+  width: 100%; }
+
+.footer {
+  box-shadow: 500px 0px 0px 0px black;
+  background-image: url("../image/footer-parallax.jpg");
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

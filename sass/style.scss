@@ -16,6 +16,10 @@ $width:90%;
 	margin:0px auto;
 }
 
+$color-orange:rgb(242,255,0);
+$color-whire:rgb(255,255,255);
+
+
 // top of the navigation bar
 .navBarSection{
 
@@ -89,7 +93,7 @@ $width:90%;
 						.nav-item{
 							.nav-link{
 								padding:10px 8px;
-
+								color:$color-whire;
 								font-weight:500;
 								font-size: 15px;
 							}
@@ -145,7 +149,7 @@ $width:90%;
 			text-align: center;
 			h2{
 				margin-top: 25px;
-				color: white;
+				color: $color-whire;
 			}
 		}
 		.button{
@@ -169,6 +173,15 @@ $width:90%;
 	.row{
 		margin: 0px auto;
 		.leftPanel{
+			h2{
+				padding-right:15px;
+				button{
+					float: right;
+				}
+				button:hover{
+					background-color:red;
+				}
+			}
 			padding-left: 0px;
 			padding-right: 0px;
 			.col-md-12{
@@ -189,10 +202,36 @@ $width:90%;
 		.rightPanel{
 			.row{
 				.col-md-12{
+					padding-left:0px;
 					.row{
 						.col-md-6{
+							padding-left:0px;
+							h5{
+								margin-bottom:0px;
+							}
 							select{
 								width: 100%;
+							}
+							.year{
+								width: 100%;
+								h5{
+									display: block;
+									margin-bottom:0px;
+								}
+								input{
+									    float: left;
+								}
+							}
+							.price{
+								input{
+									    float: left;
+								}
+							}
+							.Buttons{
+								margin-top: 10px;
+								button:hover{
+									background-color:red;
+								}
 							}
 						}
 					}
@@ -285,3 +324,22 @@ $width:90%;
   	}
 }
 
+.mapSection{
+	.fulllWidth{
+		#map {
+        height: 400px;
+        width: 100%;
+       }
+	}
+}
+
+.footer{
+	box-shadow: 500px 0px 0px 0px black;
+  background-image: url("../image/footer-parallax.jpg");
+  overflow: hidden;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color:white;
+}

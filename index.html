@@ -61,7 +61,7 @@
 						    	<a class="nav-link" href="#">XƏBƏRLƏR</a>
 						  	</li>
 						  	<li class="nav-item">
-						    	<a class="nav-link" href="#">AUTO CLUBLAR</a>
+						    	<a class="nav-link" href="#">AVTO CLUBLAR</a>
 						  	</li>
 						  	<li class="nav-item">
 						    	<a class="nav-link" href="#">SERVİZLƏR</a>
@@ -141,7 +141,11 @@
 		<div class="autoSaleSection fulllWidth">
 			<div class="row width">
 				<div class="col-md-6 col-sm-4 leftPanel">
-					<h2>Son elanlar</h2>
+					<h2>
+						Son elanlar
+						 <button class="btn btn-primary">Elan yerləşdir</button>
+					</h2>
+					
 					<div class=" col-md-12">
 						<div class="row">
 							<div class="col-md-4">
@@ -193,12 +197,39 @@
 						<div class="col-md-12">
 							<div class="row">
 								<div class="col-md-6">
+									<h5>Marka:</h5>
 									<select>
 									  	<option value="mercedes">Mercedes</option>
 									</select>
+									<h5>Model:</h5>
 									<select>
-									  	<option value="volvo">Volvo</option>
+									  	<option value="E200">E200</option>
 									</select>
+									<div class="year" >
+										<h5>Buraxılış ili:</h5>
+										<input class="col-md-6" type="text" name="min" placeholder="min">
+										<input class="col-md-6" type="text" name="maks" placeholder="maks">	
+									</div>
+									<div class="price" >
+										<h5>Qiymet:</h5>
+										<select >
+										  	<option value="AZN">AZN</option>
+										  	<option value="USD">USD</option>
+										</select>
+										<input class="col-md-6" type="text" name="min" placeholder="min">
+										<input class="col-md-6" type="text" name="maks" placeholder="maks">
+									</div>
+									<div class="cities">
+										<h5>Şəhər:</h5>
+										<select>
+											<option value="Bakı">Bakı</option>
+											<option value="Qusar">Qusar</option>
+										</select>
+									</div>
+									<div class="Buttons">
+										<button class="btn btn-primary">Axtar</button>
+										<button class="btn btn-primary">Ətraflı axtarış</button>
+									</div>
 								</div>
 								<div class="col-md-6"></div>
 						</div>
@@ -285,12 +316,87 @@
 				</div>
 			</div>
 		</div>
-		<div></div>
-		<div></div>
+
+
+		<div class="mapSection">
+			<div class="fullwidth">
+				<div id="map"></div>
+			</div>
+		</div>
+
+
+		<div class="footer">
+			<footer class="page-footer center-on-small-only mdb-color lighten-3">
+
+			    <!--Footer Links-->
+			    <div class="container ">
+			        <div class="row my-4">
+
+			            <!--First column-->
+			            <div class="col-md-4 col-lg-4">
+			                <h5 class="title mb-4 font-bold">Footer Content</h5>
+			                <p>Here you can use rows and columns here to organize your footer content.</p>
+			                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet numquam iure provident
+			                    voluptate esse quasi, veritatis totam voluptas nostrum. </p>
+			            </div>
+			            <!--/.First column-->
+
+			            <hr class="clearfix w-100 d-md-none">
+
+			            <!--Second column-->
+			            <div class="col-md-2 col-lg-2 ml-auto">
+			                <h5 class="title mb-4 font-bold">About</h5>
+			                <ul>
+			                    <p><a href="#!">HOME</a></p>
+			                    <p><a href="#!">XƏBƏRLƏR</a></p>
+			                    <p><a href="#!">AVTO KLUBLAR</a></p>
+			                    <p><a href="#!">SERVİZLƏR</a></p>
+			                    <p><a href="#!">KATALOG</a></p>
+			                    <p><a href="#!">KONTAKTLAR</a></p>
+			                </ul>
+			            </div>
+			            <!--/.Second column-->
+
+			            <hr class="clearfix w-100 d-md-none">
+
+			            <!--Third column-->
+			            <div class="col-md-4 col-lg-3">
+			                <h5 class="title mb-4 font-bold">Adress</h5>
+			                <!--Info-->
+			                <p><i class="fa fa-home mr-3"></i> Azerbaijan Baku</p>
+			                <p><i class="fa fa-envelope mr-3"></i>elitniy.07@gmail.com</p>
+			                <p><i class="fa fa-phone mr-3"></i> + 994 50 204 20 39</p>
+			                <p><i class="fa fa-phone mr-3"></i> + 994 55 234 20 39</p>
+			            </div>
+			            <!--/.Third column-->
+
+			            <hr class="clearfix w-100 d-md-none">
+
+			            <!--Fourth column-->
+			            <div class="col-md-2 col-lg-2 text-center">
+			                <h5 class="title mb-4 font-bold">Follow Us</h5>
+			                <!--Social buttons-->
+			                <div class="social-section mt-2 ">
+			                    <!--Facebook-->
+			                    <a type="button" class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"></i></a>
+			                    <!--Twitter-->
+			                    <a type="button" class="btn-floating btn-small btn-tw"><i class="fa fa-github"></i></a>
+			                    <!--Google +-->
+			                    <a type="button" class="btn-floating btn-small btn-gplus"><i class="fa fa-twitter"></i></a>
+			                    <!--Dribbble-->
+			                    <a type="button" class="btn-floating btn-small btn-dribbble"><i class="fa fa-vk"></i></a>
+			                </div>
+			            </div>
+			        </div>
+			    </div>
+			</footer>
+		</div>
 	</div>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDv5Gha792opksbAsE5mVnam2do_TdAccY&callback=initMap">
+    </script>
 </body>
 </html>
