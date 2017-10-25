@@ -204,7 +204,7 @@ $color-whire:rgb(255,255,255);
 				.col-md-12{
 					padding-left:0px;
 					.row{
-						.col-md-6{
+						.leftCollumn{
 							padding-left:0px;
 							h5{
 								margin-bottom:0px;
@@ -231,6 +231,14 @@ $color-whire:rgb(255,255,255);
 								margin-top: 10px;
 								button:hover{
 									background-color:red;
+								}
+							}
+						}
+						.rightCollumn{
+							.image{
+								overflow: hidden;
+								img{
+									width: 100%;
 								}
 							}
 						}
@@ -295,7 +303,7 @@ $color-whire:rgb(255,255,255);
 
 .gallerySection{
 	padding-top: 20px;
- 	padding-bottom: 20px;
+ 	padding-bottom: 40px;
  	padding-right: 0px;
     padding-left: 0px;
     h1{
@@ -334,12 +342,41 @@ $color-whire:rgb(255,255,255);
 }
 
 .footer{
-	box-shadow: 500px 0px 0px 0px black;
-  background-image: url("../image/footer-parallax.jpg");
-  overflow: hidden;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color:white;
+  	background-image: url("../image/footer-parallax.jpg");
+  	
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	color:white;
+  	.backDiv{
+  		background-color: rgba(0, 0, 0, 0.5);
+  		.container{
+	  		.row{
+	  			margin-top:0rem!important;
+	   			margin-bottom: 0rem!important;
+	   			.col-md-4{
+	   				h5{
+	   					margin-top: 1.5rem!important;
+	   				}
+	   			}
+	  			.navbar-link{
+	  				margin-left: 0px;
+	  				ul{
+	  					padding-left:0px;
+	  					p{
+	  						margin:0px;
+	  						a{
+	  							color: white;
+	  						}
+	  						a:hover{
+	  							text-decoration: none;
+	  							text-size:25;
+	  						}
+	  					}
+	  				}
+	  			}
+	  		}
+	  	}
+  	}
 }

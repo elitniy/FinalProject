@@ -128,25 +128,29 @@ body {
             height: 120px; }
     .autoSaleSection .row .rightPanel .row .col-md-12 {
       padding-left: 0px; }
-      .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 {
+      .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn {
         padding-left: 0px; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 h5 {
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn h5 {
           margin-bottom: 0px; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 select {
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn select {
           width: 100%; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .year {
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .year {
           width: 100%; }
-          .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .year h5 {
+          .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .year h5 {
             display: block;
             margin-bottom: 0px; }
-          .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .year input {
+          .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .year input {
             float: left; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .price input {
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .price input {
           float: left; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .Buttons {
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .Buttons {
           margin-top: 10px; }
-          .autoSaleSection .row .rightPanel .row .col-md-12 .row .col-md-6 .Buttons button:hover {
+          .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .Buttons button:hover {
             background-color: red; }
+      .autoSaleSection .row .rightPanel .row .col-md-12 .row .rightCollumn .image {
+        overflow: hidden; }
+        .autoSaleSection .row .rightPanel .row .col-md-12 .row .rightCollumn .image img {
+          width: 100%; }
 
 .carClubSlider {
   box-shadow: 500px 0px 0px 0px black;
@@ -190,7 +194,7 @@ body {
 
 .gallerySection {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-right: 0px;
   padding-left: 0px; }
   .gallerySection h1 {
@@ -214,13 +218,29 @@ body {
   width: 100%; }
 
 .footer {
-  box-shadow: 500px 0px 0px 0px black;
   background-image: url("../image/footer-parallax.jpg");
-  overflow: hidden;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white; }
+  .footer .backDiv {
+    background-color: rgba(0, 0, 0, 0.5); }
+    .footer .backDiv .container .row {
+      margin-top: 0rem !important;
+      margin-bottom: 0rem !important; }
+      .footer .backDiv .container .row .col-md-4 h5 {
+        margin-top: 1.5rem !important; }
+      .footer .backDiv .container .row .navbar-link {
+        margin-left: 0px; }
+        .footer .backDiv .container .row .navbar-link ul {
+          padding-left: 0px; }
+          .footer .backDiv .container .row .navbar-link ul p {
+            margin: 0px; }
+            .footer .backDiv .container .row .navbar-link ul p a {
+              color: white; }
+            .footer .backDiv .container .row .navbar-link ul p a:hover {
+              text-decoration: none;
+              text-size: 25; }
 
 /*# sourceMappingURL=style.css.map */
