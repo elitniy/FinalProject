@@ -18,10 +18,10 @@ $('.carousel').carousel({
   }
 });
 
-//end slider section
+//END SLIDER SECTION
 
 
-//parallax section
+//CAR LOGO PARALLAX SECTION
 $(window).ready(function(){
  i=0
  function setInter(){
@@ -60,19 +60,4 @@ $(window).ready(function(){
  }
  setInterval(setInterthird,0.2)
 })
-
-
-//end parallax section
-
-//mapsection
-function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
+// END CAR LOGO PARALLAX SECTION
