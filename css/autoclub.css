@@ -13,7 +13,7 @@ body {
     background-color: red; }
 
 .navBarSection .navbar {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: black;
   margin: 0px auto;
   padding: 0px; }
   .navBarSection .navbar button {
@@ -23,7 +23,7 @@ body {
     width: 50%; }
   .navBarSection .navbar span input {
     color: white;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.9);
     height: 20px;
     width: 200px;
     border-radius: 50rem; }
@@ -70,6 +70,20 @@ body {
     .navBarSection .navbar .collapse .navbar-text .nav-tabs .nav-item:hover {
       background-color: red;
       transition: 0.7s; }
+
+.clubLogoSection {
+  margin: 0px auto;
+  padding-top: 15px;
+  background-image: url(../image/car_logo/parallax.jpg); }
+  .clubLogoSection .width {
+    margin: 0px auto; }
+    .clubLogoSection .width .col-md-12 {
+      margin: 0px auto; }
+      .clubLogoSection .width .col-md-12 .carousel .carousel-item .col-md-3 {
+        overflow: hidden; }
+        .clubLogoSection .width .col-md-12 .carousel .carousel-item .col-md-3 a img {
+          max-width: 50%;
+          height: 50px; }
 
 .footer {
   background-image: url("../image/footer-parallax.jpg");

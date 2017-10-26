@@ -28,7 +28,7 @@ $color-whire:rgb(255,255,255);
 .navBarSection{
 
 	.navbar{
-		background-color: rgba(0, 0, 0, 0.9);
+		background-color: black;
 		margin:0px auto;
 		padding:0px;
 		button{
@@ -43,7 +43,7 @@ $color-whire:rgb(255,255,255);
 		span{
 			input{
 				color:white;
-    			background-color: rgba(0, 0, 0, 0.1);
+    			background-color: rgba(0, 0, 0, 0.9);
 				height: 20px;
 				width: 200px;
 				border-radius: 50rem;
@@ -117,8 +117,36 @@ $color-whire:rgb(255,255,255);
 	}
 }
 
+.clubLogoSection{
+	margin:0px auto;
+	padding-top:15px;
+	background-image:url(../image/car_logo/parallax.jpg);
+	.width{
+		margin: 0px auto;
+		.col-md-12{
+			    margin: 0px auto;
+			.carousel{
+				.carousel-item{
+					.col-md-3{
+						overflow: hidden;
+						a{
+							.img-fluid{
 
-
+							}
+							img{
+								max-width: 50%;
+								height: 50px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.sliderSection{
+	
+}
 
 
 
