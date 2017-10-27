@@ -126,31 +126,52 @@ body {
           .autoSaleSection .row .leftPanel .col-md-12 .col-md-4 img {
             width: 100%;
             height: 120px; }
-    .autoSaleSection .row .rightPanel .row .col-md-12 {
-      padding-left: 0px; }
-      .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn {
+    .autoSaleSection .row .rightPanel {
+      padding-right: 0px; }
+      .autoSaleSection .row .rightPanel .row .leftCollumn {
         padding-left: 0px; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn h5 {
+        .autoSaleSection .row .rightPanel .row .leftCollumn h5 {
           margin-bottom: 0px; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn select {
+        .autoSaleSection .row .rightPanel .row .leftCollumn select {
           width: 100%; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .year {
+        .autoSaleSection .row .rightPanel .row .leftCollumn .year {
           width: 100%; }
-          .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .year h5 {
+          .autoSaleSection .row .rightPanel .row .leftCollumn .year h5 {
             display: block;
             margin-bottom: 0px; }
-          .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .year input {
+          .autoSaleSection .row .rightPanel .row .leftCollumn .year input {
             float: left; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .price input {
+        .autoSaleSection .row .rightPanel .row .leftCollumn .price input {
           float: left; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .Buttons {
+        .autoSaleSection .row .rightPanel .row .leftCollumn .Buttons {
           margin-top: 10px; }
-          .autoSaleSection .row .rightPanel .row .col-md-12 .row .leftCollumn .Buttons button:hover {
+          .autoSaleSection .row .rightPanel .row .leftCollumn .Buttons button:hover {
             background-color: red; }
-      .autoSaleSection .row .rightPanel .row .col-md-12 .row .rightCollumn .image {
-        overflow: hidden; }
-        .autoSaleSection .row .rightPanel .row .col-md-12 .row .rightCollumn .image img {
-          width: 100%; }
+      .autoSaleSection .row .rightPanel .row .rightNewsFeed {
+        padding-right: 0px; }
+        .autoSaleSection .row .rightPanel .row .rightNewsFeed .newsBox {
+          box-shadow: 0 0px 5px 0px black;
+          overflow: hidden;
+          border: 1px solid black;
+          height: 80px;
+          margin: 10px 0px;
+          border-radius: 8px; }
+          .autoSaleSection .row .rightPanel .row .rightNewsFeed .newsBox .newsImage {
+            display: inline-block;
+            margin: 0px;
+            padding: 0px; }
+            .autoSaleSection .row .rightPanel .row .rightNewsFeed .newsBox .newsImage img {
+              width: 100%; }
+          .autoSaleSection .row .rightPanel .row .rightNewsFeed .newsBox .newsText {
+            float: right;
+            display: inline-block;
+            padding: 0px; }
+            .autoSaleSection .row .rightPanel .row .rightNewsFeed .newsBox .newsText p {
+              display: inline-block; }
+        .autoSaleSection .row .rightPanel .row .rightNewsFeed .newsBox:hover {
+          box-shadow: 0 0px 10px 0px black;
+          border: 2px solid black;
+          transition: 0.4s; }
 
 .carClubSlider {
   box-shadow: 500px 0px 0px 0px black;
