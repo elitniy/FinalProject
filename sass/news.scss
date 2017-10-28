@@ -140,6 +140,49 @@ $color-whire:rgb(255,255,255);
 					text-align: center;
 				}
 			}
+			.car360panel{
+				margin-bottom:20px;
+				background-color:rgb(19,69,100);
+				.row{
+					margin:0px auto;
+					.col-md-12{
+						display: flex;
+						.logoImage{
+							img{
+								width:150%;
+							}
+						}
+					}
+					.col-md-8{
+						text-align: center;
+						h2{
+							margin-top: 25px;
+							color: $color-whire;
+						}
+					}
+					.button{
+						text-align: center;
+						button{
+							margin-top: 25px;
+							background-color:red;
+							border-radius:8px;
+							border:0px;
+							color: white;
+							width: 150px;
+							height: 40px;
+						}
+					}
+				}
+			}
+			.newsBlog{
+				.row{
+					.col-md-4{
+						img{
+							width: 100%;
+						}
+					}
+				}
+			}
 		}
 		.newsPanel{
 			float: right;

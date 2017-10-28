@@ -85,6 +85,32 @@ body {
         height: 400px; }
       .newsSection .sliderBox .col-md-8 .container p {
         text-align: center; }
+    .newsSection .sliderBox .col-md-8 .car360panel {
+      margin-bottom: 20px;
+      background-color: #134564; }
+      .newsSection .sliderBox .col-md-8 .car360panel .row {
+        margin: 0px auto; }
+        .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-12 {
+          display: flex; }
+          .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-12 .logoImage img {
+            width: 150%; }
+        .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-8 {
+          text-align: center; }
+          .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-8 h2 {
+            margin-top: 25px;
+            color: white; }
+        .newsSection .sliderBox .col-md-8 .car360panel .row .button {
+          text-align: center; }
+          .newsSection .sliderBox .col-md-8 .car360panel .row .button button {
+            margin-top: 25px;
+            background-color: red;
+            border-radius: 8px;
+            border: 0px;
+            color: white;
+            width: 150px;
+            height: 40px; }
+    .newsSection .sliderBox .col-md-8 .newsBlog .row .col-md-4 img {
+      width: 100%; }
   .newsSection .sliderBox .newsPanel {
     float: right;
     display: inline-block; }

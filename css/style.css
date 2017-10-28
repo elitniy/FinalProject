@@ -76,6 +76,14 @@ body {
     height: 600px; }
     .sliderSection .slide .carousel-inner .carousel-item img {
       height: auto; }
+    .sliderSection .slide .carousel-inner .carousel-item .carousel-caption {
+      right: 0;
+      left: 0;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.5); }
 
 .car360panel {
   background-color: #134564; }
