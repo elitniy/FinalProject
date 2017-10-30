@@ -180,5 +180,21 @@ body {
             .footer .backDiv .container .row .navbar-link ul p a:hover {
               text-decoration: none;
               text-size: 25; }
+      .footer .backDiv .container .row .contactUs {
+        color: white; }
+        .footer .backDiv .container .row .contactUs input {
+          border-radius: 5px;
+          height: 25px;
+          color: white;
+          margin: 10px 0px;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.5); }
+        .footer .backDiv .container .row .contactUs textarea {
+          border-radius: 5px;
+          height: 90px;
+          color: white;
+          margin: 10px 0px;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=autoclub.css.map */

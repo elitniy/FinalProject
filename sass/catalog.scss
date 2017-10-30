@@ -116,40 +116,25 @@ $color-whire:rgb(255,255,255);
 		}
 	}
 }
-.container{
-	padding:20px 0px;
-	.imageBox{
-		display: inline-block;
-	    padding:2px 0px;
-		.thumbnail{
-			img{
-				width: 100%;
+.catalogSection{
+	.container{
+		.searchBox{
+			.col-md-6{
+				padding:0px;
 			}
+
 		}
-	}
-}
-#lightbox .modal-content {
-	width: 100%;
-    display: inline-block;
-    text-align: center;   
+		.lastViews{
+
+		}
+	}	
 }
 
-#lightbox .close {
-    opacity: 1;
-    color: rgb(255, 255, 255);
-    background-color: rgb(25, 25, 25);
-    padding: 5px 8px;
-    border-radius: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: absolute;
-    top: -15px;
-    right: -55px;
-    
-    z-index:1032;
-}
 
 .footer{
-  	background-image: url("../image/footer-parallax.jpg"); 	
+	box-shadow: 0 0px 200px 0px black;
+  	background-image: url("../image/footer-parallax.jpg");
+  	
   	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;

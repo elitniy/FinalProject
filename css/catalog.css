@@ -71,32 +71,11 @@ body {
       background-color: red;
       transition: 0.7s; }
 
-.container {
-  padding: 20px 0px; }
-  .container .imageBox {
-    display: inline-block;
-    padding: 2px 0px; }
-    .container .imageBox .thumbnail img {
-      width: 100%; }
-
-#lightbox .modal-content {
-  width: 100%;
-  display: inline-block;
-  text-align: center; }
-
-#lightbox .close {
-  opacity: 1;
-  color: white;
-  background-color: #191919;
-  padding: 5px 8px;
-  border-radius: 30px;
-  border: 2px solid white;
-  position: absolute;
-  top: -15px;
-  right: -55px;
-  z-index: 1032; }
+.catalogSection .container .searchBox .col-md-6 {
+  padding: 0px; }
 
 .footer {
+  box-shadow: 0 0px 200px 0px black;
   background-image: url("../image/footer-parallax.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -138,4 +117,4 @@ body {
           width: 100%;
           background-color: rgba(0, 0, 0, 0.5); }
 
-/*# sourceMappingURL=gallery.css.map */
+/*# sourceMappingURL=catalog.css.map */

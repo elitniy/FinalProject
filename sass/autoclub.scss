@@ -271,6 +271,25 @@ $color-whire:rgb(255,255,255);
 	  					}
 	  				}
 	  			}
+	  			.contactUs{
+	  				color: white;
+	  				input{
+	  					border-radius:5px;
+	  					height: 25px;
+	  					color: white;
+	  					margin:10px 0px;
+	  					width: 100%;
+	  					background-color: rgba(0, 0, 0, 0.5);
+	  				}
+	  				textarea{
+	  					border-radius:5px;
+	  					height: 90px;
+	  					color: white;
+	  					margin:10px 0px;
+	  					width: 100%;
+	  					background-color: rgba(0, 0, 0, 0.5);
+	  				}
+	  			}
 	  		}
 	  	}
   	}
