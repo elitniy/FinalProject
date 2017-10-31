@@ -27,7 +27,6 @@ $color-whire:rgb(255,255,255);
 // top of the navigation bar
 .navBarSection{
 	box-shadow: 0 0px 200px 0px black;
-
 	.navbar{
 		background-color: black;
 		margin:0px auto;
@@ -117,39 +116,12 @@ $color-whire:rgb(255,255,255);
 		}
 	}
 }
-.container{
-	padding:20px 0px;
-	.imageBox{
-		display: inline-block;
-	    padding:2px 0px;
-		.thumbnail{
-			img{
-				width: 100%;
-			}
-		}
-	}
-}
-#lightbox .modal-content {
-	width: 100%;
-    display: inline-block;
-    text-align: center;   
+.catalogSection{
+	.container{
+	}	
 }
 
-#lightbox .close {
-    opacity: 1;
-    color: rgb(255, 255, 255);
-    background-color: rgb(25, 25, 25);
-    padding: 5px 8px;
-    border-radius: 30px;
-    border: 2px solid rgb(255, 255, 255);
-    position: absolute;
-    top: -15px;
-    right: -55px;
-    
-    z-index:1032;
-}
 
-.
 .footer{
 	box-shadow: 0 0px 200px 0px black;
   	background-image: url("../image/footer-parallax.jpg");
