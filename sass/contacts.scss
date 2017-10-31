@@ -116,11 +116,32 @@ $color-whire:rgb(255,255,255);
 		}
 	}
 }
-.catalogSection{
-	.container{
-	}	
-}
 
+.contactSection{
+	.contactInfo{
+		margin:0px auto;
+		.col-md-12{
+			.col-md-6{
+				color: black;
+				margin-top: 20px;
+				ul{
+					display: inline-block;
+					padding:0px;
+					li{
+						list-style: none;
+						padding:0px;
+					}
+				}
+			}
+		}
+		.mapBox{
+			.map {
+			    width: 100%;
+			    height: 400px;
+			}
+		}
+	}
+}
 
 .footer{
 	box-shadow: 0 0px 200px 0px black;
