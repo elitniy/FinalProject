@@ -73,9 +73,6 @@ body {
         background-color: red;
         transition: 0.7s; }
 
-.catalogSection .container .searchBox .col-md-6 {
-  padding: 0px; }
-
 .footer {
   box-shadow: 0 0px 200px 0px black;
   background-image: url("../image/footer-parallax.jpg");
@@ -119,4 +116,4 @@ body {
           width: 100%;
           background-color: rgba(0, 0, 0, 0.5); }
 
-/*# sourceMappingURL=catalog.css.map */
+/*# sourceMappingURL=bmwclub.css.map */
