@@ -84,43 +84,6 @@ body {
     .clubNavBar .nav-tabs .nav-item .active {
       color: black; }
 
-.newsSection {
-  padding: 20px 0; }
-  .newsSection .col-md-12 {
-    padding: 0px;
-    margin: 0px auto; }
-    .newsSection .col-md-12 .col-md-8 {
-      display: inline-block;
-      padding: 0px; }
-      .newsSection .col-md-12 .col-md-8 .col-md-4 {
-        padding: 2px;
-        float: left;
-        display: inline-block; }
-        .newsSection .col-md-12 .col-md-8 .col-md-4 img {
-          width: 100%; }
-        .newsSection .col-md-12 .col-md-8 .col-md-4 .dateLikeComment .col-md-4 {
-          text-align: center;
-          color: red; }
-    .newsSection .col-md-12 .col-md-4 {
-      float: right;
-      padding-left: 10px; }
-      .newsSection .col-md-12 .col-md-4 a:hover {
-        text-decoration: none; }
-      .newsSection .col-md-12 .col-md-4 .news {
-        height: 25px;
-        overflow: hidden;
-        border: 1px solid black;
-        border-radius: 5px;
-        margin-bottom: 3px;
-        padding-left: 5px; }
-        .newsSection .col-md-12 .col-md-4 .news p {
-          color: black;
-          height: 60px; }
-          .newsSection .col-md-12 .col-md-4 .news p span {
-            color: red; }
-      .newsSection .col-md-12 .col-md-4 .mews:hover {
-        border: 2px solid red; }
-
 .footer {
   box-shadow: 0 0px 200px 0px black;
   background-image: url("../image/footer-parallax.jpg");
@@ -164,4 +127,4 @@ body {
           width: 100%;
           background-color: rgba(0, 0, 0, 0.5); }
 
-/*# sourceMappingURL=bmwclub.css.map */
+/*# sourceMappingURL=bmwclubus.css.map */
