@@ -208,14 +208,14 @@ $color-whire:rgb(255,255,255);
 						width: 100%;
 					}
 					a{
-						color: black;
+						color: gray;
 						text-decoration: none;
 					}
 				}
 				.col-md-3:hover{
 					a{
+						color: black;
 					}
-					border:1px solid #000000;
 					box-sizing:border-box;
 				}
 			}
@@ -225,73 +225,40 @@ $color-whire:rgb(255,255,255);
 			.row{
 
 
-						.leftCollumn{
-							padding-left:0px;
-							h5{
-								margin-bottom:0px;
-							}
-							select{
-								width: 100%;
-								height: 30px;
-							}
-							.year{
-								width: 100%;
-								h5{
-									display: block;
-									margin-bottom:0px;
-								}
-								input{
-									    float: left;
-								}
-							}
-							.price{
-								input{
-									    float: left;
-								}
-							}
-							.Buttons{
-								margin-top: 10px;
-								button:hover{
-									background-color:red;
-								}
-							}
-						}
-						.rightNewsFeed{
-							padding-right: 0px;
-							.newsBox{
-								box-shadow: 0 0px 5px 0px black;
-								overflow: hidden;
-								border:1px solid black;
-								height: 80px;
-								margin:10px 0px; 
-								border-radius:8px;
-								.newsImage{
-									display: inline-block;
-									margin:0px;
-									padding:0px;
-									img{
-										width: 100%;
-									}
-								}
-								.newsText{
-									float: right;
-									display: inline-block;
-									padding:0px;
-									p{
-										display: inline-block;
-									}
-								}
-							}
-							.newsBox:hover{
-								box-shadow: 0 0px 10px 0px black;
-								border: 2px solid black;
-								transition: 0.4s;
-							}
-						}
+				.leftCollumn{
 
+					padding-left:100px;
+					h5{
+						margin-bottom:0px;
+					}
+					select{
+						width: 100%;
+						height: 30px;
+					}
+					.year{
+						width: 100%;
+						h5{
+							display: block;
+							margin-bottom:0px;
+						}
+						input{
+							    float: left;
+						}
+					}
+					.price{
+						input{
+							    float: left;
+						}
+					}
+					.Buttons{
+						margin-top: 10px;
+						button:hover{
+							background-color:red;
+						}
+					}
+				}
 			}
-		}
-		
+		}		
 	}
 }
 
