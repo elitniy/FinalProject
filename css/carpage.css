@@ -1,4 +1,4 @@
-body {
+carpagebody {
   background-color: #f6f6f6; }
 
 .fulllWidth {
@@ -71,86 +71,59 @@ body {
       background-color: red;
       transition: 0.7s; }
 
-.newsSection .sliderBox {
-  padding-top: 15px;
-  margin: 0px auto; }
-  .newsSection .sliderBox .col-md-8 {
-    display: inline-block;
-    padding: 0px; }
-    .newsSection .sliderBox .col-md-8 .container {
-      padding: 0px; }
-      .newsSection .sliderBox .col-md-8 .container .carousel .carousel-inner .carousel-item .text {
-        color: white;
-        background-color: rgba(0, 0, 0, 0.6); }
-      .newsSection .sliderBox .col-md-8 .container .carousel .carousel-inner .carousel-item img {
-        width: 100%;
-        height: 400px; }
-      .newsSection .sliderBox .col-md-8 .container p {
-        text-align: center; }
-    .newsSection .sliderBox .col-md-8 .car360panel {
-      margin-bottom: 20px;
-      background-color: #134564; }
-      .newsSection .sliderBox .col-md-8 .car360panel .row {
-        margin: 0px auto; }
-        .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-12 {
-          display: flex; }
-          .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-12 .logoImage img {
-            width: 150%; }
-        .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-8 {
-          text-align: center; }
-          .newsSection .sliderBox .col-md-8 .car360panel .row .col-md-8 h2 {
-            margin-top: 25px;
-            color: white; }
-        .newsSection .sliderBox .col-md-8 .car360panel .row .button {
-          text-align: center; }
-          .newsSection .sliderBox .col-md-8 .car360panel .row .button button {
-            margin-top: 25px;
-            background-color: red;
-            border-radius: 8px;
-            border: 0px;
-            color: white;
-            width: 150px;
-            height: 40px; }
-    .newsSection .sliderBox .col-md-8 .newsBlog .row .col-md-4 img {
-      width: 100%; }
-    .newsSection .sliderBox .col-md-8 .newsBlog .row .col-md-4 h5 {
-      color: black; }
-    .newsSection .sliderBox .col-md-8 .newsBlog .row .col-md-4 p {
-      color: gray; }
-    .newsSection .sliderBox .col-md-8 .newsBlog .row .col-md-4:hover a {
-      text-decoration: none; }
-      .newsSection .sliderBox .col-md-8 .newsBlog .row .col-md-4:hover a p {
-        color: black; }
-  .newsSection .sliderBox .newsPanel {
-    float: right;
-    display: inline-block; }
-    .newsSection .sliderBox .newsPanel .newsBox {
-      box-shadow: 0 0px 5px 0px black;
-      overflow: hidden;
-      border: 1px solid black;
-      height: 70px;
-      margin: 10px 0px; }
-      .newsSection .sliderBox .newsPanel .newsBox .newsImage {
+#myCarousel .list-inline {
+  white-space: nowrap; }
+
+#myCarousel .carousel-indicators {
+  position: static;
+  left: initial;
+  margin: 0px; }
+
+#myCarousel .carousel-indicators > li {
+  width: initial;
+  height: initial;
+  text-indent: initial;
+  padding-top: 5px; }
+
+#myCarousel .carousel-indicators > li.active img {
+  opacity: 0.7; }
+
+.carPageSection {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .carPageSection .row {
+    margin: 0px auto; }
+    .carPageSection .row .col-md-12 {
+      padding: 0px;
+      margin: 0px auto; }
+      .carPageSection .row .col-md-12 .leftSlider {
+        float: left;
         display: inline-block;
-        margin: 0px;
         padding: 0px; }
-        .newsSection .sliderBox .newsPanel .newsBox .newsImage img {
-          width: 100%; }
-      .newsSection .sliderBox .newsPanel .newsBox .newsText {
-        float: right;
-        display: inline-block;
-        padding: 0 0 0 5px; }
-        .newsSection .sliderBox .newsPanel .newsBox .newsText h5 {
+        .carPageSection .row .col-md-12 .leftSlider .row .col-lg-12 {
           margin: 0px; }
-        .newsSection .sliderBox .newsPanel .newsBox .newsText p {
-          display: inline-block; }
-    .newsSection .sliderBox .newsPanel .newsBox:hover {
-      box-shadow: 0 0px 10px 0px black;
-      border: 2px solid black;
-      transition: 0.4s; }
+      .carPageSection .row .col-md-12 .rightInfoPanel {
+        float: right;
+        padding: 0px; }
+        .carPageSection .row .col-md-12 .rightInfoPanel .col-md-6 {
+          display: inline-block;
+          padding: 0px; }
+          .carPageSection .row .col-md-12 .rightInfoPanel .col-md-6 ul {
+            padding-left: 10px; }
+            .carPageSection .row .col-md-12 .rightInfoPanel .col-md-6 ul li {
+              list-style: none; }
+        .carPageSection .row .col-md-12 .rightInfoPanel .rightCollumn {
+          float: right;
+          padding: 0px; }
+          .carPageSection .row .col-md-12 .rightInfoPanel .rightCollumn ul {
+            padding-left: 10px; }
+            .carPageSection .row .col-md-12 .rightInfoPanel .rightCollumn ul li {
+              list-style: none; }
+      .carPageSection .row .col-md-12 .additionalInformation {
+        padding-left: 10px; }
 
 .footer {
-  background-image: url("../image/footer-parallax.jpg");
+  background-color: black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -191,4 +164,4 @@ body {
           width: 100%;
           background-color: rgba(0, 0, 0, 0.5); }
 
-/*# sourceMappingURL=news.css.map */
+/*# sourceMappingURL=carpage.css.map */

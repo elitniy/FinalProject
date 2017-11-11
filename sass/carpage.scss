@@ -1,4 +1,4 @@
-body{
+carpagebody{
 	background-color:rgb(246,246,246);
 }
 
@@ -116,134 +116,79 @@ $color-whire:rgb(255,255,255);
 		}
 	}
 }
-.newsSection{ 
-	.sliderBox{
-		padding-top: 15px;
-		margin:0px auto;
-		.col-md-8{
-			display: inline-block;
-			padding:0px;
-			.container{
-				padding:0px;
-				.carousel{
-					.carousel-inner{
-						.carousel-item{
-							.text{
-								color: white;
-								background-color: rgba(0, 0, 0, 0.6);
-							}
-							img{
-								width: 100%;
-								height: 400px;
-							}
-						}
-					}
-				}
-				p{
-					text-align: center;
-				}
-			}
-			.car360panel{
-				margin-bottom:20px;
-				background-color:rgb(19,69,100);
-				.row{
-					margin:0px auto;
-					.col-md-12{
-						display: flex;
-						.logoImage{
-							img{
-								width:150%;
-							}
-						}
-					}
-					.col-md-8{
-						text-align: center;
-						h2{
-							margin-top: 25px;
-							color: $color-whire;
-						}
-					}
-					.button{
-						text-align: center;
-						button{
-							margin-top: 25px;
-							background-color:red;
-							border-radius:8px;
-							border:0px;
-							color: white;
-							width: 150px;
-							height: 40px;
-						}
-					}
-				}
-			}
-			.newsBlog{
-				.row{
-					.col-md-4{
-						img{
-							width: 100%;
-						}
 
-						h5{
-							color: black;
-						}
-						p{
-							color: gray;
-						}
-					}
-					.col-md-4:hover{
-						a{
-							text-decoration: none;
-							p{
-							color: black;
-						}
-						}
-					}
-				}
-			}
-		}
-		.newsPanel{
-			float: right;
-			display: inline-block;
-			.newsBox{
-				box-shadow: 0 0px 5px 0px black;
-				overflow: hidden;
-				border:1px solid black;
-				height: 70px;
-				margin:10px 0px; 
-				.newsImage{
-					display: inline-block;
-					margin:0px;
-					padding:0px;
-					img{
-						width: 100%;
-					}
-				}
-				.newsText{
-					float: right;
-					display: inline-block;
-					padding:0 0 0 5px;
-					h5{
+#myCarousel .list-inline {
+    white-space:nowrap;
+
+}
+
+#myCarousel .carousel-indicators {
+    position: static;
+    left: initial;
+    margin:0px;
+}
+
+#myCarousel .carousel-indicators > li {
+    width: initial;
+    height: initial;
+    text-indent: initial;
+    padding-top: 5px;
+}
+
+#myCarousel .carousel-indicators > li.active img {
+    opacity: 0.7;
+}
+.carPageSection{
+	padding-top:20px;
+	padding-bottom:20px;
+	.row{
+		margin:0px auto;
+		.col-md-12{
+			padding:0px;
+			margin:0px auto;
+			.leftSlider{
+				float: left;
+				display: inline-block;
+				padding: 0px;
+				.row{
+					.col-lg-12{
 						margin:0px;
 					}
-					p{
-						display: inline-block;
+				}
+			}	
+			.rightInfoPanel{
+				float: right;
+				padding:0px;
+				.col-md-6{
+					display: inline-block;
+					padding:0px;
+					ul{
+						padding-left:10px;
+						li{
+							list-style:none;
+						}
+					}
+				}
+				.rightCollumn{
+					float: right;
+					padding:0px;
+					ul{
+						padding-left:10px;
+						li{
+							list-style:none;
+						}
 					}
 				}
 			}
-			.newsBox:hover{
-				box-shadow: 0 0px 10px 0px black;
-				border: 2px solid black;
-				transition: 0.4s;
+			.additionalInformation{
+				padding-left:10px;
 			}
 		}
 	}
 }
-
-
 //fuuter section
 .footer{
-  	background-image: url("../image/footer-parallax.jpg"); 	
+	background-color:black;
   	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
