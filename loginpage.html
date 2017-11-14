@@ -9,8 +9,8 @@
 
 
 
-	<link rel="stylesheet" href="css/gallery.css">
-	<link rel="stylesheet" href="js/gallery.js">
+	<link rel="stylesheet" href="css/loginpage.css">
+	<link rel="stylesheet" href="js/loginpage.js">
 </head>
 <body>
 	<div class="main fulllWidth">
@@ -36,67 +36,43 @@
 			    			<a href=""><i class="fa fa-github-square" aria-hidden="true"></i></a>
 			    			<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 			    			<a href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
-			    			<a href="loginpage.html"><i class="fa fa-user-circle-o" aria-hidden="true" ></i> Giriş</a>
-			    			<a href="#"><i class="fa fa-user-circle-o" aria-hidden="true" ></i> Qeydiyyat</a>
-			    			<a href="#"> Sifrəni unutmusuz?</a>
+			    			<a href="registerpage.html"><i class="fa fa-user-circle-o" aria-hidden="true" ></i> Qeydiyyat</a>
 			    			<a href="#"><i class="fa fa-globe" aria-hidden="true"></i> Dil seçimi</a>
 			    		</ul>
-						<ul class="nav nav-tabs">
-						  	<li class="nav-item">
-						    	<a class="nav-link " href="index.html#">ƏSAS SƏHİFƏ</a>
-						  	</li>
-						  	<li class="nav-item">
-						    	<a class="nav-link" href="news.html#">XƏBƏRLƏR</a>
-						  	</li>
-						  	<li class="nav-item">
-						    	<a class="nav-link" href="autoclub.html#">AVTO KLUBLAR</a>
-						  	</li>
-						  	<li class="nav-item">
-						    	<a class="nav-link active" href="gallery.html#">GALEREYA</a>
-						  	</li>
-						  	<li class="nav-item">
-						    	<a class="nav-link" href="catalog.html#">KATALOQ</a>
-						  	</li>
-						  	<li class="nav-item">
-						    	<a class="nav-link" href="contacts.html#">KONTAKTLAR</a>
-						  	</li>
-						</ul>
 			    	</span>
 			  	</div>
 			</nav>
 		</div>
+		
+    	<!-- end top bar navigation -->
+    	<div class=" row loginSection fullWidth">
+    		<div class="col-md-12 width">
+    			<form action="/action_page.php">
+		 		 <div class="imgcontainer">
+				    <img src="image/logo.png" alt="Avatar" class="avatar">
+				  </div>
+				  <div class="container">
+				    <label><b></b></label>
+				    <input type="text" placeholder="İdtifadəçi ad" name="uname" required>
 
+				    <label><b></b></label>
+				    <input type="password" placeholder="Şifrə" name="psw" required>
 
-		<div class="gallerySection fullWidth">
-			<div class="col-md-12 width">
-				<div class="col-md-2 col-sm-4">
-					<img src="image/gallery/1.jpg">
-				</div>
-				<div class="col-md-2 col-sm-4">
-					<img src="image/gallery/1.jpg">
-				</div>
-				<div class="col-md-2 col-sm-4">
-					<img src="image/gallery/1.jpg">
-				</div>
-				<div class="col-md-2 col-sm-4">
-					<img src="image/gallery/1.jpg">
-				</div>
-				<div class="col-md-2 col-sm-4">
-					<img src="image/gallery/1.jpg">
-				</div>
-				<div class="col-md-2 col-sm-4">
-					<img src="image/gallery/1.jpg">
-				</div>
-				<div class="col-md-2 col-sm-4">
-					<img src="image/gallery/1.jpg">
-				</div>
+				    <button type="submit">Daxil ol</button>
+				    <input type="checkbox" checked="checked"> Məni yaddaşa saxla
+				  </div>
 
-
-			</div>
-		</div>
-
-
-		<div class="footer fullwidgth">
+				  <div class="container" style="background-color:#f1f1f1">
+				    <a href="index.html">
+				    	<button type="button" class="cancelbtn">Əsas səhifə</button>
+				    </a>
+				    <span class="psw"><a href="#">Şifrəni </a>unutmusuz?</span>
+				  </div>
+				</form>
+    		</div>
+    	</div>
+		<!-- Footer section -->
+		<div class="footer fullwidth">
 		    <!--Footer Links-->
 		   <div class="backDiv fullwidth">
 		   		 <div class="container width ">

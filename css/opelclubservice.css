@@ -1,4 +1,4 @@
-body {
+opelclubservice.bmwclubservicebody {
   background-color: #f6f6f6; }
 
 .fulllWidth {
@@ -22,7 +22,7 @@ body {
       background-color: white;
       border-radius: 25px; }
     .navBarSection .navbar .navbar-brand img {
-      width: 36%; }
+      width: 50%; }
     .navBarSection .navbar span input {
       color: white;
       background-color: rgba(0, 0, 0, 0.9);
@@ -74,52 +74,15 @@ body {
         transition: 0.7s; }
 
 .clubNavBar {
-  background-color: #0066e1; }
+  background-color: #e10d00; }
   .clubNavBar .nav-tabs {
     margin: 0px auto;
-    background-color: #0066e1;
+    background-color: #e10d00;
     line-height: 0.5; }
     .clubNavBar .nav-tabs .nav-item .nav-link {
       color: white; }
     .clubNavBar .nav-tabs .nav-item .active {
       color: black; }
-
-.newsSection {
-  padding: 20px 0; }
-  .newsSection .col-md-12 {
-    padding: 0px;
-    margin: 0px auto; }
-    .newsSection .col-md-12 .col-md-8 {
-      display: inline-block;
-      padding: 0px; }
-      .newsSection .col-md-12 .col-md-8 .col-md-4 {
-        padding: 2px;
-        float: left;
-        display: inline-block; }
-        .newsSection .col-md-12 .col-md-8 .col-md-4 img {
-          width: 100%; }
-        .newsSection .col-md-12 .col-md-8 .col-md-4 .dateLikeComment .col-md-4 {
-          text-align: center;
-          color: red; }
-    .newsSection .col-md-12 .col-md-4 {
-      float: right;
-      padding-left: 10px; }
-      .newsSection .col-md-12 .col-md-4 a:hover {
-        text-decoration: none; }
-      .newsSection .col-md-12 .col-md-4 .news {
-        height: 25px;
-        overflow: hidden;
-        border: 1px solid black;
-        border-radius: 5px;
-        margin-bottom: 3px;
-        padding-left: 5px; }
-        .newsSection .col-md-12 .col-md-4 .news p {
-          color: black;
-          height: 60px; }
-          .newsSection .col-md-12 .col-md-4 .news p span {
-            color: red; }
-      .newsSection .col-md-12 .col-md-4 .mews:hover {
-        border: 2px solid red; }
 
 .footer {
   box-shadow: 0 0px 200px 0px black;
@@ -164,4 +127,4 @@ body {
           width: 100%;
           background-color: rgba(0, 0, 0, 0.5); }
 
-/*# sourceMappingURL=bmwclub.css.map */
+/*# sourceMappingURL=opelclubservice.css.map */

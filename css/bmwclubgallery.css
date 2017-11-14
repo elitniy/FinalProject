@@ -84,9 +84,22 @@ bmwclubservicebody {
     .clubNavBar .nav-tabs .nav-item .active {
       color: black; }
 
+.gallerySection {
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  .gallerySection .gallery {
+    margin: 0px auto; }
+    .gallerySection .gallery .col-md-3 {
+      float: left;
+      padding: 2px;
+      display: inline-block; }
+      .gallerySection .gallery .col-md-3 img {
+        width: 100%;
+        height: auto; }
+
 .footer {
   box-shadow: 0 0px 200px 0px black;
-  background-image: url("../image/footer-parallax.jpg");
+  background-color: black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

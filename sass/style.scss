@@ -348,26 +348,22 @@ $color-whire:rgb(255,255,255);
 
 
 .footer{
-  	background-image: url("../image/footer-parallax.jpg");
-  	
-  	background-attachment: fixed;
-  	background-position: center;
-  	background-repeat: no-repeat;
-  	background-size: cover;
-  	color:white;
   	.backDiv{
   		background-color: black;
+  		color: white;
   		.container{
+  			padding:0px;
 	  		.row{
-	  			margin-top:0rem!important;
-	   			margin-bottom: 0rem!important;
-	   			.col-md-4{
+	  			padding:0px;
+	   			.col-md-7{
 	   				h5{
-	   					margin-top: 1.5rem!important;
+	   					padding-top:10px;
 	   				}
 	   			}
 	  			.navbar-link{
-	  				margin-left: 0px;
+
+	  				padding-top:10px;
+	  				margin:0px auto;
 	  				ul{
 	  					padding-left:0px;
 	  					p{
@@ -382,26 +378,9 @@ $color-whire:rgb(255,255,255);
 	  					}
 	  				}
 	  			}
-	  			.contactUs{
-	  				color: white;
-	  				input{
-	  					border-radius:5px;
-	  					height: 25px;
-	  					color: white;
-	  					margin:10px 0px;
-	  					width: 100%;
-	  					background-color: rgba(0, 0, 0, 0.5);
-	  				}
-	  				textarea{
-	  					border-radius:5px;
-	  					height: 90px;
-	  					color: white;
-	  					margin:10px 0px;
-	  					width: 100%;
-	  					background-color: rgba(0, 0, 0, 0.5);
-	  				}
+	  			.col-md-3{
+	  				float: right;
 	  			}
-
 	  		}
 	  	}
   	}

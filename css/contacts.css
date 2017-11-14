@@ -73,20 +73,42 @@ body {
         background-color: red;
         transition: 0.7s; }
 
-.contactSection .contactInfo {
-  margin: 0px auto; }
-  .contactSection .contactInfo .col-md-12 .col-md-6 {
-    color: black;
-    margin-top: 20px; }
-    .contactSection .contactInfo .col-md-12 .col-md-6 ul {
+.contactSection {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .contactSection .contactInfo {
+    margin: 0px auto; }
+    .contactSection .contactInfo .col-md-12 .col-md-6 {
       display: inline-block;
-      padding: 0px; }
-      .contactSection .contactInfo .col-md-12 .col-md-6 ul li {
-        list-style: none;
+      color: black;
+      margin-top: 20px; }
+      .contactSection .contactInfo .col-md-12 .col-md-6 ul {
+        display: inline-block;
         padding: 0px; }
-  .contactSection .contactInfo .mapBox .map {
-    width: 100%;
-    height: 400px; }
+        .contactSection .contactInfo .col-md-12 .col-md-6 ul li {
+          list-style: none;
+          padding: 0px; }
+    .contactSection .contactInfo .col-md-12 .contactUs {
+      float: right; }
+      .contactSection .contactInfo .col-md-12 .contactUs input {
+        border-radius: 5px;
+        height: 25px;
+        margin: 10px 0px;
+        width: 100%; }
+      .contactSection .contactInfo .col-md-12 .contactUs textarea {
+        border-radius: 5px;
+        height: 90px;
+        margin: 10px 0px;
+        width: 100%; }
+    .contactSection .contactInfo .mapBox .map {
+      width: 100%;
+      height: 400px; }
+
+.googleMap {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .googleMap .map {
+    margin: 0px auto; }
 
 .footer {
   box-shadow: 0 0px 200px 0px black;

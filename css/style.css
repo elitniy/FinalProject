@@ -226,22 +226,18 @@ body {
     -moz-box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.75); }
 
-.footer {
-  background-image: url("../image/footer-parallax.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.footer .backDiv {
+  background-color: black;
   color: white; }
-  .footer .backDiv {
-    background-color: black; }
+  .footer .backDiv .container {
+    padding: 0px; }
     .footer .backDiv .container .row {
-      margin-top: 0rem !important;
-      margin-bottom: 0rem !important; }
-      .footer .backDiv .container .row .col-md-4 h5 {
-        margin-top: 1.5rem !important; }
+      padding: 0px; }
+      .footer .backDiv .container .row .col-md-7 h5 {
+        padding-top: 10px; }
       .footer .backDiv .container .row .navbar-link {
-        margin-left: 0px; }
+        padding-top: 10px;
+        margin: 0px auto; }
         .footer .backDiv .container .row .navbar-link ul {
           padding-left: 0px; }
           .footer .backDiv .container .row .navbar-link ul p {
@@ -251,21 +247,7 @@ body {
             .footer .backDiv .container .row .navbar-link ul p a:hover {
               text-decoration: none;
               text-size: 25; }
-      .footer .backDiv .container .row .contactUs {
-        color: white; }
-        .footer .backDiv .container .row .contactUs input {
-          border-radius: 5px;
-          height: 25px;
-          color: white;
-          margin: 10px 0px;
-          width: 100%;
-          background-color: rgba(0, 0, 0, 0.5); }
-        .footer .backDiv .container .row .contactUs textarea {
-          border-radius: 5px;
-          height: 90px;
-          color: white;
-          margin: 10px 0px;
-          width: 100%;
-          background-color: rgba(0, 0, 0, 0.5); }
+      .footer .backDiv .container .row .col-md-3 {
+        float: right; }
 
 /*# sourceMappingURL=style.css.map */

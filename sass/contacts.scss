@@ -118,10 +118,13 @@ $color-whire:rgb(255,255,255);
 }
 
 .contactSection{
+	padding-top:20px;
+	padding-bottom:20px;
 	.contactInfo{
 		margin:0px auto;
 		.col-md-12{
 			.col-md-6{
+				display: inline-block;
 				color: black;
 				margin-top: 20px;
 				ul{
@@ -133,6 +136,21 @@ $color-whire:rgb(255,255,255);
 					}
 				}
 			}
+			.contactUs{
+				float: right;
+	  				input{
+	  					border-radius:5px;
+	  					height: 25px;
+	  					margin:10px 0px;
+	  					width: 100%;
+	  				}
+	  				textarea{
+	  					border-radius:5px;
+	  					height: 90px;
+	  					margin:10px 0px;
+	  					width: 100%;
+	  				}
+	  			}
 		}
 		.mapBox{
 			.map {
@@ -142,7 +160,13 @@ $color-whire:rgb(255,255,255);
 		}
 	}
 }
-
+.googleMap{
+	padding-top:20px;
+	padding-bottom:20px;
+	.map{
+		margin:0px auto;
+	}
+}
 .footer{
 	box-shadow: 0 0px 200px 0px black;
   	background-image: url("../image/footer-parallax.jpg");

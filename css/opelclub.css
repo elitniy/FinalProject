@@ -22,7 +22,7 @@ body {
       background-color: white;
       border-radius: 25px; }
     .navBarSection .navbar .navbar-brand img {
-      width: 36%; }
+      width: 50%; }
     .navBarSection .navbar span input {
       color: white;
       background-color: rgba(0, 0, 0, 0.9);
@@ -74,10 +74,10 @@ body {
         transition: 0.7s; }
 
 .clubNavBar {
-  background-color: #0066e1; }
+  background-color: #e10d00; }
   .clubNavBar .nav-tabs {
     margin: 0px auto;
-    background-color: #0066e1;
+    background-color: #e10d00;
     line-height: 0.5; }
     .clubNavBar .nav-tabs .nav-item .nav-link {
       color: white; }
@@ -164,4 +164,4 @@ body {
           width: 100%;
           background-color: rgba(0, 0, 0, 0.5); }
 
-/*# sourceMappingURL=bmwclub.css.map */
+/*# sourceMappingURL=opelclub.css.map */

@@ -22,7 +22,7 @@ body {
       background-color: white;
       border-radius: 25px; }
     .navBarSection .navbar .navbar-brand img {
-      width: 36%; }
+      width: 50%; }
     .navBarSection .navbar span input {
       color: white;
       background-color: rgba(0, 0, 0, 0.9);
@@ -74,52 +74,39 @@ body {
         transition: 0.7s; }
 
 .clubNavBar {
-  background-color: #0066e1; }
+  background-color: #e10d00; }
   .clubNavBar .nav-tabs {
     margin: 0px auto;
-    background-color: #0066e1;
+    background-color: #e10d00;
     line-height: 0.5; }
     .clubNavBar .nav-tabs .nav-item .nav-link {
       color: white; }
     .clubNavBar .nav-tabs .nav-item .active {
       color: black; }
 
-.newsSection {
-  padding: 20px 0; }
-  .newsSection .col-md-12 {
-    padding: 0px;
-    margin: 0px auto; }
-    .newsSection .col-md-12 .col-md-8 {
+.infoSection {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .infoSection .image1 {
+    margin: 0px auto;
+    height: auto;
+    overflow: hidden;
+    float: left; }
+    .infoSection .image1 img {
+      padding: 5px;
+      width: 300px;
       display: inline-block;
-      padding: 0px; }
-      .newsSection .col-md-12 .col-md-8 .col-md-4 {
-        padding: 2px;
-        float: left;
-        display: inline-block; }
-        .newsSection .col-md-12 .col-md-8 .col-md-4 img {
-          width: 100%; }
-        .newsSection .col-md-12 .col-md-8 .col-md-4 .dateLikeComment .col-md-4 {
-          text-align: center;
-          color: red; }
-    .newsSection .col-md-12 .col-md-4 {
-      float: right;
-      padding-left: 10px; }
-      .newsSection .col-md-12 .col-md-4 a:hover {
-        text-decoration: none; }
-      .newsSection .col-md-12 .col-md-4 .news {
-        height: 25px;
-        overflow: hidden;
-        border: 1px solid black;
-        border-radius: 5px;
-        margin-bottom: 3px;
-        padding-left: 5px; }
-        .newsSection .col-md-12 .col-md-4 .news p {
-          color: black;
-          height: 60px; }
-          .newsSection .col-md-12 .col-md-4 .news p span {
-            color: red; }
-      .newsSection .col-md-12 .col-md-4 .mews:hover {
-        border: 2px solid red; }
+      float: left; }
+  .infoSection .image2 {
+    margin: 0px auto;
+    height: auto;
+    overflow: hidden;
+    float: left; }
+    .infoSection .image2 img {
+      padding: 5px;
+      width: 300px;
+      display: inline-block;
+      float: right; }
 
 .footer {
   box-shadow: 0 0px 200px 0px black;
@@ -131,37 +118,42 @@ body {
   color: white; }
   .footer .backDiv {
     background-color: rgba(0, 0, 0, 0.5); }
-    .footer .backDiv .container .row {
-      margin-top: 0rem !important;
-      margin-bottom: 0rem !important; }
-      .footer .backDiv .container .row .col-md-4 h5 {
-        margin-top: 1.5rem !important; }
-      .footer .backDiv .container .row .navbar-link {
-        margin-left: 0px; }
-        .footer .backDiv .container .row .navbar-link ul {
-          padding-left: 0px; }
-          .footer .backDiv .container .row .navbar-link ul p {
-            margin: 0px; }
-            .footer .backDiv .container .row .navbar-link ul p a {
-              color: white; }
-            .footer .backDiv .container .row .navbar-link ul p a:hover {
-              text-decoration: none;
-              text-size: 25; }
-      .footer .backDiv .container .row .contactUs {
-        color: white; }
-        .footer .backDiv .container .row .contactUs input {
-          border-radius: 5px;
-          height: 25px;
-          color: white;
-          margin: 10px 0px;
-          width: 100%;
-          background-color: rgba(0, 0, 0, 0.5); }
-        .footer .backDiv .container .row .contactUs textarea {
-          border-radius: 5px;
-          height: 90px;
-          color: white;
-          margin: 10px 0px;
-          width: 100%;
-          background-color: rgba(0, 0, 0, 0.5); }
+    .footer .backDiv .container {
+      padding: 0px; }
+      .footer .backDiv .container .row {
+        margin-top: 0rem !important;
+        margin-bottom: 0rem !important; }
+        .footer .backDiv .container .row .col-md-4 {
+          padding: 0px; }
+          .footer .backDiv .container .row .col-md-4 h5 {
+            margin-top: 1.5rem !important; }
+        .footer .backDiv .container .row .navbar-link {
+          padding-left: 10px;
+          margin-left: 0px; }
+          .footer .backDiv .container .row .navbar-link ul {
+            padding-left: 0px; }
+            .footer .backDiv .container .row .navbar-link ul p {
+              margin: 0px; }
+              .footer .backDiv .container .row .navbar-link ul p a {
+                color: white; }
+              .footer .backDiv .container .row .navbar-link ul p a:hover {
+                text-decoration: none;
+                text-size: 25; }
+        .footer .backDiv .container .row .contactUs {
+          color: white; }
+          .footer .backDiv .container .row .contactUs input {
+            border-radius: 5px;
+            height: 25px;
+            color: white;
+            margin: 10px 0px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5); }
+          .footer .backDiv .container .row .contactUs textarea {
+            border-radius: 5px;
+            height: 90px;
+            color: white;
+            margin: 10px 0px;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5); }
 
-/*# sourceMappingURL=bmwclub.css.map */
+/*# sourceMappingURL=opelclubus.css.map */

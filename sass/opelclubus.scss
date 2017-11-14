@@ -1,4 +1,4 @@
-bmwclubservicebody{
+body{
 	background-color:rgb(246,246,246);
 }
 
@@ -117,42 +117,55 @@ $color-whire:rgb(255,255,255);
 	}
 }
 .clubNavBar{
-	background-color:rgb(0, 102, 225);
+	background-color:rgb(225, 13, 0);
 	.nav-tabs{
 		margin:0px auto;
-		background-color:rgb(0, 102, 225);
+		background-color:rgb(225, 13, 0);
 		line-height: 0.5;
 		.nav-item{
 			.nav-link{
 				color:white;
 			}
 			.active{
-				color: black;
-			}
+					color: black;
+				}
 		}
 	}
 }
-.gallerySection{
-	padding-bottom:20px;
+.infoSection{
 	padding-top:20px;
-	.gallery{
+	padding-bottom:20px;
+	.image1{
 		margin:0px auto;
-		.col-md-3{
-			float: left;
-			padding:2px;
+		height: auto;
+		overflow: hidden;
+		float: left;
+		img{
+			padding:5px;
+			width:300px;
 			display: inline-block;
-			img{
-				width: 100%;
-				height: auto;
-			}
+			float: left;
 		}
 	}
+	.image2{
+		margin:0px auto;
+		height: auto;
+		overflow: hidden;
+		float: left;
+		img{
+			padding:5px;
+			width:300px;
+			display: inline-block;
+			float: right;
+		}
+	}	
 }
 
 
 .footer{
 	box-shadow: 0 0px 200px 0px black;
-  	background-color:black;
+  	background-image: url("../image/footer-parallax.jpg");
+  	
   	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
@@ -161,15 +174,18 @@ $color-whire:rgb(255,255,255);
   	.backDiv{
   		background-color: rgba(0, 0, 0, 0.5);
   		.container{
+  			padding:0px;
 	  		.row{
 	  			margin-top:0rem!important;
 	   			margin-bottom: 0rem!important;
 	   			.col-md-4{
+	   				padding:0px;
 	   				h5{
 	   					margin-top: 1.5rem!important;
 	   				}
 	   			}
 	  			.navbar-link{
+	  				padding-left:10px;
 	  				margin-left: 0px;
 	  				ul{
 	  					padding-left:0px;
